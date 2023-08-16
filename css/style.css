@@ -1,0 +1,89 @@
+* {
+    margin: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#Apresentacao {
+    display: flex;
+    justify-content: center;
+
+
+
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+    background: rgb(255, 184, 53);
+}
+
+
+#lista {
+    display: flex;
+}
+
+#servicos {
+    display: flex;
+    font-size: 20px;
+    font-family: 'Inconsolata', monospace;
+    text-align: center;
+    flex: 5;
+
+}
+
+#lista2 {
+    flex: 5;
+}
+
+#m {
+    flex: 5;
+}
+
+#v {
+    font-size: 21px;
+    font-family: 'Inconsolata', monospace;
+    flex: 5;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+    background: rgb(255, 155, 24);
+    background: radial-gradient(circle, rgba(255, 155, 24, 1) 0%, rgba(255, 255, 255, 1) 100%);
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+h3 {
+    font-size: 30px;
+
+}
+
+ol {
+    padding-top: 20px;
+
+
+}
+
+#modoDepreparo {
+    display: flex;
+    font-family: 'Inconsolata', monospace;
+
+
+}
+
+#cobertura {
+    flex: 5;
+    font-family: 'Inconsolata', monospace;
+    font-size: 20px;
+    text-align: center;
+
+}
