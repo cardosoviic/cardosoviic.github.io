@@ -1,0 +1,344 @@
+<!-- Declaraçãõ de que o documento é em HTML, marcando 
+o início do código -->
+
+<!DOCTYPE html>
+
+<!-- Tag html lang: especifica o idioma da pagina-->
+<html lang="pt-BR">
+<!-- Tag head: não é visualizado no corpo (body) da página,
+armazena os metadados -->
+
+<head>
+  <!-- Metadado UTF-8: considera um conjunto de caracteres presentes no idioma
+    português (acentuação, por exemplo)-->
+  <meta charset="UTF-8" />
+
+  <!-- Metadado que possibilita a visualização em navegador de dispositivo móvel,
+    mantendo a escala -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+  <!-- Tag title: titulo da guia -->
+  <title>Soluções em TI</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href=" style/style.css" />
+</head>
+
+<!-- Tagbody: Definir o corpo do documento (conteúdo a ser visualizado)   -->
+
+<body>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Great+Vibes&family=Montserrat:wght@300&family=Nunito:ital,wght@1,300;1,800&family=Playfair+Display:ital,wght@1,600&family=Raleway:wght@300&family=Satisfy&display=swap");
+  </style>
+
+  <!-- Cabeçalho da página -->
+
+  <!-- Início do menu -->
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse navColor" id="navbarNav">
+        <ul class="navbar-nav" id="menu">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">INÍCIO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#sobremim">SOBRE MIM</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#servicos">SOLUÇÕES EM TI</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contato">CONTATO</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Fim do menu-->
+
+  <!-- Dvisão em parte menor, dentro de uma seção, identificada pela 
+      palavra "apresentação "-->
+
+  <header>
+    <!--Início da seção de apresentação-->
+    <div class="apresentacao">
+      <!-- Tag img: inserir imagem na página -->
+      <!-- width significa largura -->
+      <!-- height significa altura -->
+
+      <div class="left">
+        <img src="img/background1.png" width="60%" height="auto" alt="imagem com notebook ">
+      </div>
+
+      <div class="right">
+        <!-- Tags h1 ao h6: niveis de impotância no corpo do site -->
+        <span>Soluções tecnológicas em</span>
+        <h1>desenvolvimento web</h1>
+
+        <div>
+
+          <a href="#contato">
+            <button class="btn btnContact">Entre em contato</button>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!--Fim da seção apresentação-->
+  </header>
+
+  <section id="sobremim">
+    <h3>Sobre mim</h3>
+
+    <div class="containerSobreMim">
+      <div class="left">
+
+        <h2>Victória A. Cardoso</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
+          soluta, magnam aliquam neque, repudiandae voluptatum veritatis ipsum
+          libero dolorem placeat tempore reprehenderit enim doloribus quae,
+          fugit provident. Labore, voluptas inventore?
+        </p>
+      </div>
+
+      <div class="right">
+        <!--<iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/5PNBIlUd7q0?si=QGy1MNVVv8Esmx0S"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>-->
+
+
+        <div class="socialMedia1">
+
+          <div>
+            <a href="https://api.whatsapp.com/send?phone=5511986080091" target="_blank">
+              <img src="img/redesSocias/whatsapp3.png">
+
+          </div>
+
+          <div>
+            <a href="https://github.com/cardosoviic" target="_blank">
+              <img src="img/redesSocias/github3.png"> </a>
+          </div>
+
+          <div class="">
+            <a href="https://www.linkedin.com/in/victóriacardoso-/" target="_blank">
+              <img src="img/redesSocias/linkedin3.png" />
+          </div>
+
+          <div>
+            <a href="mailto:victoriacardoso545@gmail.com">
+              <img src="img/redesSocias/gmail3.png"> </a>
+          </div>
+
+        </div>
+
+
+        <!--<video controls autoplay  width="540" height="315" >
+
+           <source src="img/video.mp4"
+            type="video/mp4"> 
+
+          </video>-->
+      </div>
+    </div>
+  </section>
+
+  <!--Fim da seção sobre mim-->
+
+  <!-- Divisão em seções (partes da página)-->
+
+  <section id="servicos">
+    <!--Início da seção de serviços em redes de computadores-->
+
+    <!-- Início da seção de serviços em redes de computadores -->
+
+    <h3>DESENVOLVIMENTO E IMPLEMENTAÇÃO DE APLICATIVOS</h3>
+
+    <div class="containerServicos">
+      <div class="itemServico1">
+        <img src="img/prototipacao/96px.png" />
+        <h2>Prototipação de aplicações</h2>
+      </div>
+
+      <div class="itemServico2">
+        <img src="img/bancoDeDados/96px.png" />
+        <h2>Estrutura e administração de banco de dados</h2>
+      </div>
+
+      <div class="itemServico3">
+        <img src="img/sistemaDesktop/96px.png" />
+        <h2>Desenvolvimento de sistemas desktop</h2>
+      </div>
+
+      <div class="itemServico4">
+        <img src="img/desenvolverSite/96px.png" />
+        <h2>Desenvolvimento e hospedagem de site</h2>
+      </div>
+    </div>
+
+
+
+    <!--Fim da seção de serviços em desenvolvimento -->
+  </section>
+
+
+
+  <!--Tag hr: cria uma linha -->
+  <!-- <hr> -->
+
+  <!-- <h3> Portfólio | Desenvolvedora Victória A. Cardoso </h3>
+    <h4> Portfólio | Desenvolvedora Victória A. Cardoso </h4>
+    <h5> Portfólio | Desenvolvedora Victória A. Cardoso </h5>
+    <h6> Portfólio | Desenvolvedora Victória A. Cardoso </h6 -->
+
+  <!-- Tag p: Representar o parágrafo -->
+
+  <!-- tag footer: seção para identificar o rodapé -->
+
+  <!--Início da seção contato-->
+
+  <section id="contato">
+
+    <div class="containerContato">
+
+
+
+      <form name="formularioContato">
+
+        <h2>Entre em contato</h2>
+
+        <div class="displayContato">
+
+          <div class="dados">
+            <!--tag Label: rótulo do input-->
+            <label for="nome">Nome: </label>
+            <!-- tag input: entrada de dados -->
+
+            <!-- atributo required é um campo obrigatório-->
+            <input type="text" id="idNome" placeholder="Digite seu nome" required="required" name="nome" />
+            <br>
+
+            <label for="cel">Celular: </label>
+            <input type="tel" id="idFone" placeholder="(99) 99999-9999" name="cel" />
+
+            <br>
+
+            <label for="email">Email: </label>
+            <input type="email" id="idEmail" placeholder="seuemail@email.com" required="required" name="email" />
+
+          </div>
+
+
+
+          <div class="mensagem">
+            <label>Deixe sua mensagem:</label>
+
+            <textarea rows="6" cols="33"> </textarea>
+            <br>
+
+            <input type="submit" class="enviar" onclick="enviarMensagem();" value="Enviar mensagem" />
+          </div>
+
+          <div class="mapa">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3654.8065064986695!2d-46.70641572448957!3d-23.647099564748!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce50f8ac76dfdb%3A0xc160a87f059ec93d!2sSenac%20Largo%20Treze!5e0!3m2!1spt-BR!2sbr!4v1695048239789!5m2!1spt-BR!2sbr"
+              width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+
+
+
+        </div>
+
+      </form>
+
+    </div>
+
+
+  </section>
+
+  <!--Fim da seção contato-->
+
+  <!--Início do rodapé-->
+
+<hr>
+
+  <div class="container my-5">
+
+      <!-- Section: Links -->
+  
+
+    <footer class="bg-light text-center text-white">
+      <!-- Grid container -->
+      <div class="container p-4 pb-0">
+        <!-- Section: Social media -->
+        <section class="rodape">
+          <!-- Facebook -->
+          <a class="btn btn-primary btn-floating m-1" style="background-color: #b061ff;" href="https://api.whatsapp.com/send?phone=5511986080091" target="_blank" role="button"><i
+              class="fab fa-whatsapp"></i></a>
+
+          <!-- Twitter -->
+          <a class="btn btn-primary btn-floating m-1" style="background-color: #b061ff;" href="https://www.instagram.com/viicx.a/" target="_blank" role="button"><i
+              class="fab fa-instagram"></i></a>
+
+          <!-- Google -->
+
+          <!-- Instagram -->
+
+
+          <!-- Linkedin -->
+          <a class="btn btn-primary btn-floating m-1" style="background-color: #b061ff;" href="https://www.linkedin.com/in/vict%C3%B3riacardoso-/" target="_blank" role="button"><i
+              class="fab fa-linkedin-in"></i></a>
+          <!-- Github -->
+          <a class="btn btn-primary btn-floating m-1" style="background-color: #b061ff;" href="mailto:victoriacardoso545@gmail.com" target="_blank"  role="button"><i
+              class="fa fa-envelope"></i></a>
+        </section>
+        <!-- Section: Social media -->
+      </div>
+      <!-- Grid container -->
+
+      <!-- Copyright -->
+      <div
+      class="text-center p-3 place"
+      style="background-color: rgb(0, 0, 0)"
+      >
+      
+   © 2023 Copyright:
+   <a class="text-white copyright" href="https://github.com/cardosoviic" target="_blank"
+      >Desenvolvido por Victória Cardoso</a
+     >
+ </div>
+      <!-- Copyright -->
+    </footer>
+
+  </div>
+
+
+  <!-- Fim do rodapé-->
+
+  <script src="https://kit.fontawesome.com/d60cc19647.js" crossorigin="anonymous"></script>
+
+  <script src="js/script.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
