@@ -267,7 +267,7 @@ h3 {
 }
 
 form {
-  max-width: 500px;
+  max-width: 90%px;
   padding-left: 20px;
   padding-bottom: 30px;
 
@@ -439,18 +439,31 @@ iframe {
 
   .displayContato {
     flex-direction: column;
-    margin-left: 40px;
+
   }
 
-  .textarea {
-    width: 200px;
+  form {
+    max-width: 75%;
+  }
+
+  textarea,
+  input {
+    width: 100%;
+  }
+
+  .mensagem {
+    margin-left: 0px;
   }
 
   .mapa {
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 0px;
     margin-top: 50px;
- 
+
+  }
+
+  .mapa iframe {
+    width: 80%;
+    height: auto;
   }
 }
 
@@ -503,6 +516,31 @@ iframe {
     width: 75%;
     margin-left: auto;
     margin-right: auto;
+  }
+
+
+
+
+
+  #servicos h3 {
+    font-size: 19px;
+
+  }
+
+  .displayContato {
+    flex-direction: column;
+    margin-left: 40px;
+  }
+
+  .textarea {
+    width: 200px;
+  }
+
+  .mapa {
+    margin-left: 0px;
+    margin-top: 50px;
+
+
   }
 
 
