@@ -447,7 +447,8 @@ iframe {
   }
 
   .mapa {
-    margin-left: -60px;
+    margin-left: -10px;
     margin-top: 50px;
+    width: 300;
   }
 }
