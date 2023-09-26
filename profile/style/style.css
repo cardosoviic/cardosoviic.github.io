@@ -447,9 +447,64 @@ iframe {
   }
 
   .mapa {
-    margin-left: -45px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 50px;
-    width: 220;
-    height: 150;
+ 
   }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .apresentacao {
+    flex-direction: column;
+  }
+
+
+
+  .left img {
+    margin-bottom: 14px;
+
+  }
+
+  .right {
+    text-align: center;
+  }
+
+  .containerSobreMim {
+    flex-direction: column;
+  }
+
+  .containerSobreMim .left {
+    margin-left: 0px;
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+
+  }
+
+  .containerSobreMim .right {
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .containerServicos {
+    flex-direction: column;
+  }
+
+  .containerServicos h2 {
+    font-size: 17px;
+  }
+
+  .itemServico1,
+  .itemServico2,
+  .itemServico3,
+  .itemServico4 {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+
 }
