@@ -264,7 +264,7 @@ h3 {
   color: rgb(190, 122, 253);
   font-weight: 600;
   font-family: "Raleway", sans-serif;
-  padding-left: 40px;
+  text-align: left;
 }
 
 form {
@@ -412,6 +412,13 @@ iframe {
 
   }
 
+  .formTitle {
+    color: rgb(190, 122, 253);
+    font-weight: 600;
+    font-family: "Raleway", sans-serif;
+    padding-left: 40px;
+  }
+
   .containerSobreMim .right {
     width: 75%;
     margin-right: auto;
@@ -510,6 +517,13 @@ iframe {
     width: 75%;
     margin-right: auto;
     margin-left: auto;
+  }
+
+  .formTitle {
+    color: rgb(190, 122, 253);
+    font-weight: 600;
+    font-family: "Raleway", sans-serif;
+    padding-left: 40px;
   }
 
   .containerServicos {
